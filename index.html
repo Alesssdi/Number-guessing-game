@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number guessing game</title>
+    <link rel="icon" href="img/icon2.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Junge&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+
+</head>
+
+<body>
+    <section class="content">
+        <h1>Угадай число</h1>
+
+        <div class="description">
+            <p>Угадайте число от 1 до 100 за 10 попыток.</p>
+            <p>У Вас есть 30 секунд. Обратный отсчет начнется после первой проверки введенного значения.</p>
+        </div>
+
+        <div class="form">
+            <div class="form_group">
+                <input type="number" min="1" max="100" required class="form_field" placeholder=" ">
+                <label class="form_label">Введите число</label>
+            </div>
+            <button class="form_submit_button">Проверить</button>
+        </div>
+
+        <div class="result">
+            <p class="last_result"></p>
+            <p class="low_or_hi"></p>
+            <p class="timer_field">Оставшееся время: 00:</p>
+            <p class="remaining_guesses">Попыток осталось: 10</p>
+            <p class="guesses">Введенные числа:</p>
+        </div>
+
+        <div class="statistics">
+            <h2>Статистика</h2>
+            <p class="games_amount">Игр всего: 0</p>
+            <p class="winning_games">Игр выиграно: 0</p>
+            <p class="best_time">Лучшее время: -</p>
+            <p class="min_moves">Минимальное количество ходов: -</p>
+        </div>
+    </section>
+
+</body>
+</html>
