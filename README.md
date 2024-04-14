@@ -7,9 +7,9 @@ This game is a classic number guessing challenge where players try to guess a ra
 
 ## Features
 
-- Limited Attempts & Time
-- Statistics Tracking
-- Real-time Feedback
+- Limited attempts & time
+- Statistics tracking
+- Real-time feedback
 
 
 ## Built With:
